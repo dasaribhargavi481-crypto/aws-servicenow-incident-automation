@@ -30,7 +30,9 @@ See [Architecture](architecture.md) for details.
 - `lambda/incident_workflow.md` — workflow documentation.
 - `lambda/cloudwatch/alarm_setup.md` — CloudWatch setup notes.
 - `servicenow/incident_setup.md` — ServiceNow setup notes.
-- `architecture.md` — architecture documentation.
+- `architecture.md` — architecture documentation. 
+- `test_cases.md` — documented test scenarios and expected results.
+
 
 ## Demo Status
 This repository contains sample alert data, code, and documentation. Real AWS-to-ServiceNow integration has not yet been tested and requires configured AWS and ServiceNow environments.
