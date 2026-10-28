@@ -25,3 +25,19 @@
 ## Test Status
 
 These are documented test scenarios. They have not been executed against real AWS or ServiceNow services.
+
+
+
+## Project Test Results
+
+| Test Case | Input | Expected Result |
+|---|---|---|
+| 1 | CloudWatch alarm state is ALARM | Incident details are prepared |
+| 2 | Alarm state is OK | No new incident should be created |
+| 3 | CPU usage exceeds 80% | High CPU alert is identified |
+| 4 | Required alert field is missing | Validation error is reported |
+| 5 | ServiceNow connection is unavailable | Error is logged for troubleshooting |
+
+## Note
+
+These are planned test cases for the GitHub demonstration. They have not been executed against live AWS or ServiceNow services.
