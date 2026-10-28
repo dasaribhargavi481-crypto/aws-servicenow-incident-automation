@@ -1,0 +1,12 @@
+
+{
+  "source": "aws.cloudwatch",
+  "detail-type": "CloudWatch Alarm State Change",
+  "detail": {
+    "alarmName": "High-CPU-Usage",
+    "state": {
+      "value": "ALARM",
+      "reason": "CPU utilization exceeded 80 percent"
+    }
+  }
+}
