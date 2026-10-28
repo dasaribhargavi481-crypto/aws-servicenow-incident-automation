@@ -2,19 +2,42 @@
 # AWS CloudWatch to ServiceNow Incident Automation
 
 ## Project Overview
-This project integrates AWS monitoring with ServiceNow Incident Management.
+This beginner-friendly project demonstrates how cloud monitoring alerts can be connected to IT incident management.
+
+## Objectives
+- Understand AWS CloudWatch alarm events.
+- Learn the role of Amazon EventBridge.
+- Understand AWS Lambda event processing.
+- Learn how ServiceNow REST API can create incidents.
+- Document an incident automation workflow.
 
 ## Technologies
-- Amazon CloudWatch
+- AWS CloudWatch
+- Amazon EventBridge
 - AWS Lambda
-- Python
+- ServiceNow Incident Management
 - ServiceNow REST API
+- GitHub
 
-## Workflow
-1. CloudWatch detects an alarm.
-2. AWS Lambda processes the alert.
-3. Lambda sends alert details to ServiceNow.
-4. ServiceNow creates an incident.
+## Architecture
+CloudWatch Alarm → EventBridge → AWS Lambda → ServiceNow REST API → Incident
 
-## Project Status
-Initial project setup.
+See [Architecture](architecture.md) for details.
+
+## Project Files
+- `lambda/sample_alert.json` — sample alarm event.
+- `lambda/incident_handler.py` — Lambda handler example.
+- `lambda/incident_workflow.md` — workflow documentation.
+- `lambda/cloudwatch/alarm_setup.md` — CloudWatch setup notes.
+- `servicenow/incident_setup.md` — ServiceNow setup notes.
+- `architecture.md` — architecture documentation.
+
+## Demo Status
+This repository contains sample alert data, code, and documentation. Real AWS-to-ServiceNow integration has not yet been tested and requires configured AWS and ServiceNow environments.
+
+## Security
+Never upload passwords, API tokens, or other credentials to GitHub.
+
+## Author
+Dasari Bhargavi
+  
