@@ -37,3 +37,15 @@ Stores the incident for the support team to investigate.
 ## Demo Status
 This repository currently provides a documented workflow and sample alert.
 Real AWS and ServiceNow integration requires the relevant accounts and configuration.
+
+
+## Example Alert
+
+Sample alert file: `lambda/sample_alert.json`
+
+Example:
+- Alarm Name: High-CPU-Usage
+- State: ALARM
+- Reason: CPU utilization exceeded 80 percent
+
+Expected result: When the AWS and ServiceNow integration is configured correctly, this alert can be used to test incident creation.
