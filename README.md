@@ -25,13 +25,15 @@ CloudWatch Alarm → EventBridge → AWS Lambda → ServiceNow REST API → Inci
 See [Architecture](architecture.md) for details.
 
 ## Project Files
-- `lambda/sample_alert.json` — sample alarm event.
-- `lambda/incident_handler.py` — Lambda handler example.
-- `lambda/incident_workflow.md` — workflow documentation.
+
+- `lambda/sample_alert.json` — sample CloudWatch alert.
+- `lambda/incident_handler.py` — AWS Lambda handler example.
+- `lambda/incident_workflow.md` — incident automation workflow.
 - `lambda/cloudwatch/alarm_setup.md` — CloudWatch setup notes.
 - `servicenow/incident_setup.md` — ServiceNow setup notes.
-- `architecture.md` — architecture documentation. 
-- `test_cases.md` — documented test scenarios and expected results.
+- `architecture.md` — project architecture.
+- `test_cases.md` — test scenarios and expected results.
+- `incident_examples.md` — sample incident scenarios.
 
 
 ## Demo Status
